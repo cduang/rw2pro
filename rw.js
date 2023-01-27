@@ -3,15 +3,15 @@ xrc UNLOCK
 [MITM]
 hostname = buy.itunes.apple.com
 Loon
-http-response ^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt script-path=https://ghproxy.com/https://raw.githubusercontent.com/cduang/xrc/main/xrc.js, requires-body=true, timeout=10
+http-response ^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt script-path=https://ghproxy.com/https://raw.githubusercontent.com/cduang/rw2pro/dddd/rw.js, requires-body=true, timeout=10
 Quantumult X 商店版
 [rewrite_local]
-^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://ghproxy.com/https://raw.githubusercontent.com/cduang/xrc/main/xrc.js
+^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://ghproxy.com/https://raw.githubusercontent.com/cduang/rw2pro/dddd/rw.js
 Quantumult X Testflight
-^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://ghproxy.com/https://raw.githubusercontent.com/cduang/xrc/main/xrc.js
+^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://ghproxy.com/https://raw.githubusercontent.com/cduang/rw2pro/dddd/rw.js
 Surge
 [Script]
-^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt requires-body=1, max-size=0, script-path=https://ghproxy.com/https://raw.githubusercontent.com/cduang/xrc/main/xrc.js
+^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt requires-body=1, max-size=0, script-path=https://ghproxy.com/https://raw.githubusercontent.com/cduang/rw2pro/dddd/rw.js
 */
 
 
